@@ -1,6 +1,6 @@
 {
   "name": "@jon-abr/reactjs-ui-kit",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "ReactJs UI-Kit",
   "main": "build/dist/index.js",
   "types": "build/dist/index.d.ts",

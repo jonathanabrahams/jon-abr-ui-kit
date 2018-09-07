@@ -7,17 +7,27 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "prepare": "yarn build"
+    "prepare": "yarn build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "author": "Jonathan Abrahams",
   "license": "ISC",
   "homepage": "https://github.com/jonathanabrahams/jon-abr-ui-kit#README",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/jonathanabrahams/jon-abr-ui-kit"
+    "type": "git",
+    "url": "https://github.com/jonathanabrahams/jon-abr-ui-kit"
   },
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.4.10",
+    "@storybook/addon-actions": "^3.4.10",
+    "@storybook/addon-links": "^3.4.10",
+    "@storybook/addons": "^3.4.10",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0"
   }
 }

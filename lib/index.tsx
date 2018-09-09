@@ -1,3 +1,11 @@
 import * as React from 'react';
 
-export const Name: React.StatelessComponent = ({children}) => (<div>{children}</div>);
+export interface NameProps {
+    salutation: string;
+    firstname: string;
+    lastname: string;
+}
+
+export const Name = (props:NameProps) =>  (
+    <>{props.salutation} {props.firstname} {props.lastname}</>
+)
